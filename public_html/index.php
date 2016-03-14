@@ -39,7 +39,12 @@ if (!defined('DS')) {
  * The full path to the directory which holds "app", WITHOUT a trailing DS.*/
 if(!defined('ROOT')) {
 //	define('ROOT', dirname(dirname(dirname(__FILE__))));
+
+if(strpos($_SERVER["HTTP_HOST"], 'heroku')){
+define(DS.'cake');
+}else{
 define('ROOT',DS. 'var'. DS. 'www'. DS.'home'.DS.'jimma01'.DS.'succest.jp'.DS.'cake');
+}
 }
 
 
