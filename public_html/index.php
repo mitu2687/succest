@@ -42,7 +42,6 @@ if(!defined('ROOT')) {
 
 if(strpos($_SERVER["HTTP_HOST"], 'heroku')){
 define('ROOT', DS.'cake');
-define('CAKE_CORE_INCLUDE_PATH', DS.'cake'.DS. 'lib'. DS. 'Cake');
 }else{
 define('ROOT',DS. 'var'. DS. 'www'. DS.'home'.DS.'jimma01'.DS.'succest.jp'.DS.'cake');
 }
@@ -88,7 +87,11 @@ if (!defined('WWW_ROOT')) {
 }
 
 
-
+print ROOT. " / ROOT<br>";
+print APP_DIR. " / APP_DIR<br>";
+print CAKE_CORE_INCLUDE_PATH. " / CAKE_CORE_INCLUDE_PATH<br>";
+print WEBROOT_DIR. " / WEBROOT_DIR<br>";
+print WWW_ROOT. " / WWW_ROOT<br>";
 // for built-in server
 if (php_sapi_name() === 'cli-server') {
 	if ($_SERVER['REQUEST_URI'] !== '/' && file_exists(WWW_ROOT . $_SERVER['PHP_SELF'])) {
