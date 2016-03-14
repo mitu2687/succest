@@ -71,7 +71,11 @@ define('APP_DIR', 'app');
  * The following line differs from its sibling
  * /lib/Cake/Console/Templates/skel/webroot/index.php
  */
+if(strpos($_SERVER["HTTP_HOST"], 'heroku')){
+define('CAKE_CORE_INCLUDE_PATH', 'http://peaceful-forest-94538.herokuapp.com' . DS .'cake'. DS.  'lib');
+}else{
 define('CAKE_CORE_INCLUDE_PATH', ROOT . DS . 'lib');
+}
 //define('CAKE_CORE_INCLUDE_PATH', ROOT.DS.'home'.DS.'jimma01'.DS.'succest.jp'.DS.'cake'.DS.'lib');
 
 /**
