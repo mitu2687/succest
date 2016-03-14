@@ -71,11 +71,8 @@ define('APP_DIR', 'app');
  * The following line differs from its sibling
  * /lib/Cake/Console/Templates/skel/webroot/index.php
  */
-if(strpos($_SERVER["HTTP_HOST"], 'heroku')){
-define('CAKE_CORE_INCLUDE_PATH', 'http://peaceful-forest-94538.herokuapp.com' . DS .'cake'. DS.  'lib');
-}else{
+
 define('CAKE_CORE_INCLUDE_PATH', ROOT . DS . 'lib');
-}
 //define('CAKE_CORE_INCLUDE_PATH', ROOT.DS.'home'.DS.'jimma01'.DS.'succest.jp'.DS.'cake'.DS.'lib');
 
 /**
@@ -91,11 +88,6 @@ if (!defined('WWW_ROOT')) {
 }
 
 
-print ROOT. " / ROOT<br>";
-print APP_DIR. " / APP_DIR<br>";
-print CAKE_CORE_INCLUDE_PATH. " / CAKE_CORE_INCLUDE_PATH<br>";
-print WEBROOT_DIR. " / WEBROOT_DIR<br>";
-print WWW_ROOT. " / WWW_ROOT<br>";
 // for built-in server
 if (php_sapi_name() === 'cli-server') {
 	if ($_SERVER['REQUEST_URI'] !== '/' && file_exists(WWW_ROOT . $_SERVER['PHP_SELF'])) {
