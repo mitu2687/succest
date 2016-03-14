@@ -41,7 +41,7 @@ if(!defined('ROOT')) {
 //	define('ROOT', dirname(dirname(dirname(__FILE__))));
 
 if(strpos($_SERVER["HTTP_HOST"], 'heroku')){
-define(DS.'cake');
+define('ROOT', DS.'cake');
 }else{
 define('ROOT',DS. 'var'. DS. 'www'. DS.'home'.DS.'jimma01'.DS.'succest.jp'.DS.'cake');
 }
