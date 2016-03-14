@@ -1,2 +1,3 @@
 <?php
-require "/public_html/index.php";
+header('Location: public_html/');
+exit;
