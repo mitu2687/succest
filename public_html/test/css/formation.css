@@ -1,0 +1,275 @@
+@font-face{
+font-family:"NiseZillion.otf";
+src: url('/Hero/fonts/NiseZillion.otf') ;
+}
+.roomBox{
+font-family:"NiseZillion.otf";
+color:#fff;
+}
+
+.paramBox{
+white-space: nowrap;
+position: relative;
+left: 11px;
+//display:none;
+}
+
+.cn{
+position: relative;
+left: -36px;
+font-size: 20px;
+z-index: 1;
+}
+
+.lv{
+font-size: 20px;
+left: 38px;
+z-index: 1;
+position: relative;
+}
+
+.paramBox2{
+font-size: 15px;
+}
+
+.hp , .at, .charcterCard{
+left: -35px;
+position: relative;
+z-index:1;
+}
+
+.nl {
+left: 13px;
+position: relative;
+z-index:1;
+}
+
+.sp {
+left: -15px;
+position: relative;
+z-index:1;
+}
+
+.df{
+position: relative;
+left:-26px;
+z-index:1;
+}
+
+.cont{
+position: relative;
+top: -45px;
+z-index: 1;
+left: -18px;
+display:none;
+}
+
+.black{
+width: 337px;
+height: 200px;
+background: #000 none repeat scroll 0% 0%;
+opacity: 0.8;
+position: relative;
+top: -69px;
+left: -35px;
+}
+
+.row{
+background:url("/Hero/img/back/back.jpg");
+}
+
+.opacityBox{
+width: 226px;
+height: 66px;
+background: #000;
+opacity:0.7;
+margin-top: 12px;
+-webkit-border-radius: 0px 10px 10px 0px / 0px 10px 10px 0px;
+-moz-border-radius: 0px 10px 10px 0px / 0px 10px 10px 0px;
+border-radius: 0px 10px 10px 0px / 0px 10px 10px 0px;
+}
+
+.over{
+-webkit-box-shadow: 0px 0px 17px #fff;
+-moz-box-shadow: 0px 0px 17px #fff;
+box-shadow: 0px 0px 17px #fff;
+}
+
+
+.over2{
+-webkit-box-shadow: 0px 0px 17px #D0FF38;
+-moz-box-shadow: 0px 0px 17px #D0FF38;
+box-shadow: 0px 0px 17px #D0FF38;
+}
+
+.opa{
+opacity:0.5;
+}
+
+.mini{
+position: relative;
+top: -74px;
+float: left;
+width: 66px;
+left: 7px;
+}
+
+.mini_hp{
+float: left;
+position: relative;
+top: -65px;
+left: 12px;
+}
+.gold{
+background: #B0AD4F none repeat scroll 0% 0%;
+height: 12px;
+width: 225px;
+float: left;
+position: relative;
+top: -62px;
+opacity: 0.7;
+}
+
+.damag{
+color:#b61e1e;
+}
+
+.gLv{
+float: right;
+position: relative;
+top: -78px;
+left: -25px;
+}
+
+.icon-box-red{
+background: transparent url("/Hero/img/icon/formation_icon/paramerter_icon.png") repeat scroll 0% 0%;
+width: 16px;
+height: 16px;
+float: left;
+position: relative;
+top: -62px;
+left: 10px;
+}
+
+.icon-box{
+background: transparent url("/Hero/img/icon/formation_icon/paramerter_icon.png") repeat scroll 0% 0%;
+width: 16px;
+height: 16px;
+float: left;
+position: relative;
+top: -62px;
+left: 10px;
+background-position: -21px 0px;
+}
+@font-face{
+font-family:"agm-win";
+src: url('/Hero/fonts/AGM-WIN.otf') ;
+}
+
+.formation_name{
+font-family:"agm-win";
+}
+
+.mini_name{
+float: left;
+position: relative;
+top: -63px;
+left: 18px;
+}
+
+.mini_params{
+float: left;
+position: relative;
+top: -63px;
+left: 12px;
+}
+
+.mini_params,.mini_hp{
+font-size: 10.5px;
+}
+
+.rap{
+cursor:pointer;
+}
+
+.none{
+float: left;
+position: relative;
+top: -53px;
+font-size: 30px;
+left: 62px;
+opacity:0.3;
+}
+
+.noneBox{
+border: solid 2px;
+opacity:0.5;
+}
+
+#cardImg{
+display:none;
+}
+
+#sub:not(.sub-char-box){
+width:240px;
+margin:15px 0 0 5px;
+}
+
+#top,#down:not(#keyup):not(#keydown):not(.sub-lv):not(.formation_name){
+background:#ddd;
+height:30px;
+opacity:0.8;
+}
+
+#top,#down{
+cursor:pointer;
+}
+
+
+#keyup,#keydown{
+	font-size:30px;
+	color:#000;
+}
+
+.sort{
+margin-bottom:-28px;
+}
+
+.sub-char-box:not(img){
+background: #000 none repeat scroll 0% 0%;
+height: 50px;
+opacity: 0.7;
+overflow: hidden;
+cursor:pointer;
+border: solid 1px #5C5C5C;
+}
+
+#sub-char{
+display:none;
+}
+
+.sub-img{
+position:relative;
+float:left;
+width:50px;
+padding:2px 0 0 2px;
+}
+
+.sub-lv{
+color:#fff;
+margin-right:115px;
+display:block;
+margin-bottom:-5px;
+}
+
+.sub_name{
+color:#fff;
+font-size:22px;
+}
+
+#num{
+display:none;
+}
+#active-formation{
+display:none;
+}

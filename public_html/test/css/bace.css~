@@ -1,0 +1,61 @@
+.padding{
+padding:15px;
+}
+
+.padding-sm{
+padding:5px;
+}
+
+.padding-ls{
+padding:30px;
+}
+
+.margin{
+margin:15px;
+}
+
+.margin-sm{
+margin:5px;
+}
+
+.magin-ls{
+margin:30px;
+}
+
+.sp-bottom{
+margin-bottom:15px;
+}
+
+.sp-bottom-sm{
+margin-bottom:5px;
+}
+
+.sp-bottom-ls{
+margin-bottom:30px;
+}
+
+.sp-left{
+margin-left:15px;
+}
+
+.sp-left-sm{
+margin-left:5px;
+}
+
+.sp-left-ls{
+margin-left:30px;
+}
+
+.sp-top{
+margin-top:15px;
+}
+
+a:focus, *:focus { outline:none; }
+
+.roomBox{
+	width:800px;
+	height:480px;
+	overflow: hidden;
+	margin:0 auto;
+	background-image:url("/Hero/img/back/interfaceRoom.jpg");
+}
