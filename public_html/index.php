@@ -42,6 +42,7 @@ if(!defined('ROOT')) {
 
 if(strpos($_SERVER["HTTP_HOST"], 'heroku')){
 define('ROOT', DS.'cake');
+define('CAKE_CORE_INCLUDE_PATH', DS.'cake'.DS. 'lib'. DS. 'Cake');
 }else{
 define('ROOT',DS. 'var'. DS. 'www'. DS.'home'.DS.'jimma01'.DS.'succest.jp'.DS.'cake');
 }
