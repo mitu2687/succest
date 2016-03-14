@@ -1,2 +1,2 @@
 <?php
-print "ok";
+require "/public_html/index.php";
