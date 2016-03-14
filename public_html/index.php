@@ -87,6 +87,7 @@ if (!defined('WWW_ROOT')) {
 	define('WWW_ROOT', dirname(__FILE__) . DS);
 }
 
+print get_include_path();
 
 // for built-in server
 if (php_sapi_name() === 'cli-server') {
