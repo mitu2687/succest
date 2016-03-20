@@ -1,3 +1,3 @@
 <?php
-header('Location: public_html/');
-exit;
+//header('Location: public_html/');
+//exit;
