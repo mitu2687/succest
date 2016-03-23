@@ -33,7 +33,7 @@ App::uses('Controller', 'Controller');
  */
 class AppController extends Controller {
 
-    public $components = array('RequestHandler' => array('className' => 'MyRequestHandler'),'Session','Cookie');
+    public $components = array('RequestHandler' => array('className' => 'MyRequestHandler'),'Session','Cookie','Paginator');
 
     public function beforeFilter(){
 

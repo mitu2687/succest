@@ -1,6 +1,0 @@
-
-<IfModule mod_rewrite.c>
-    RewriteEngine on
-    RewriteRule    ^/$    public_html/webroot/    [L]
-    RewriteRule    ^/blog    public_html/blog/    [L]
-</IfModule>
