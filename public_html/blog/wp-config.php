@@ -43,6 +43,8 @@ define('DB_CHARSET', 'utf8mb4');
 /** データベースの照合順序 (ほとんどの場合変更する必要はありません) */
 define('DB_COLLATE', '');
 
+define('WP_HOME','http://devsuccest.jp/blog/');
+
 /**#@+
  * 認証用ユニークキー
  *
@@ -97,6 +99,5 @@ if ( !defined('ABSPATH') )
 require_once(ABSPATH . 'wp-settings.php');
 
 if(strpos($_SERVER["HTTP_HOST"], 'vagrant')){
-	define('WP_HOME','/blog');
 	define('WP_SITEURL','/blog');
 }

@@ -93,7 +93,7 @@
           <p class="info" >東京メトロ日比谷線・JR京葉線<br>　　「八丁堀」駅Ａ３ 出口</p>
           <p  class="info">東京メトロ有楽町線「新富町」駅 ５出口</p>
 <div class="text-center">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.1720318250386!2d139.7732446151598!3d35.67276583804375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018895fb4c9eea1%3A0xe50a89009a385b72!2z44CSMTA0LTAwNDEg5p2x5Lqs6YO95Lit5aSu5Yy65paw5a-M77yR5LiB55uu77yR77yV4oiS77yU!5e0!3m2!1sja!2sjp!4v1453755436805" width="300" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.1720318250386!2d139.7732446151598!3d35.67276583804375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018895fb4c9eea1%3A0xe50a89009a385b72!2z44CSMTA0LTAwNDEg5p2x5Lqs6YO95Lit5aSu5Yy65paw5a-M77yR5LiB55uu77yR77yV4oiS77yU!5e0!3m2!1sja!2sjp!4v1453755436805" width="300" height="200" frameborder="0" style="border:0; pointer-events:none;" allowfullscreen></iframe>
 </div>
       <?php echo $this->element('spbtn');?>
         <?php echo $this->element('sp-links');?>
