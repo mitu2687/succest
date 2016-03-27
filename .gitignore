@@ -9,6 +9,7 @@
 /dist
 /tags
 *.mo
+/public_html/blog/wp-config.php
 
 # IDE and editor specific files #
 #################################

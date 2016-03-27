@@ -1,7 +1,9 @@
 
+		<?php wp_footer(); ?>
+<?php $accountID = is_mobile()? 1793 : 1861;?>
 <script>
 var _chaq = _chaq || [];
-_chaq['_accountID']=1861;
+_chaq['_accountID']=<?php echo $accountID;?>;
 (function(D,s){
 	var ca = D.createElement(s)
 	,ss = D.getElementsByTagName(s)[0];
@@ -61,7 +63,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 		<?php // all js scripts are loaded in library/bones.php ?>
-		<?php wp_footer(); ?>
 
 	</body>
 

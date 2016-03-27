@@ -31,7 +31,7 @@
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
-<script>(function(){var obj_js=document.createElement("script");var obj_tag=document.getElementsByTagName("script")[0];obj_js.src="//www.call-ma.com/gearjs/gear.js?CD=e72cee89e7aa33362c1103c622392e43-120-1225824106&RE="+encodeURIComponent(location.search.substring(1));obj_tag.parentNode.insertBefore(obj_js,obj_tag)}());window.onload=function(){if(typeof SGEAR==="undefined"||SGEAR.getCallTel()==""){SGEAR={getCallTel:function(){return"0120165019"},getDispTel:function(){return"0120-165-019"}};var replaceTags=document.getElementsByClassName("callma_tel");for(i=0;i<replaceTags.length;i++){replaceTags[i].innerHTML=SGEAR.getDispTel()}if(typeof Ext_Callma_Init !== "undefined"){Ext_Callma_Init();}}};</script>
+
 
 		<?php // wordpress head functions ?>
 		<?php // end of wordpress head ?>
