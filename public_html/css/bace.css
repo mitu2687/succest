@@ -12,7 +12,7 @@ font-weight: 600;
 }
 
 .nav{
-font-family: 'YuGothic', 'Yu Gothic', '游ゴシチE��', '游ゴシチE��佁E, sans-serif;
+font-family: 'YuGothic', 'Yu Gothic', '游ゴシック体', sans-serif;
 font-size:16px;
 }
 
@@ -22,7 +22,6 @@ font-size:16px;
     -webkit-box-shadow: 0 2px 1px #fff inset;
     -moz-box-shadow: 0 2px 1px #fff inset;
 
-    /*グラチE�Eション*/
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e1ffff+0,e1ffff+7,e1ffff+12,fdffff+12,e6f8fd+30,c8eefb+54,bee4f8+75,b1d8f5+100;Blue+Pipe+%232 */
     background: #e1ffff; /* Old browsers */
     background: -moz-linear-gradient(top, #EDFBFE 0%, #F0FBFE 7%, #F0FBFE 12%, #F0FBFE 12%, #E0F6FD 30%, #D5F0FB 54%, #D9F2FB 75%, #b1d8f5 100%); /* FF3.6-15 */
@@ -441,4 +440,40 @@ min-height:90px;
 
 .non::-webkit-input-placeholder {
 font-size:15px;
+}
+
+    .dropdown-menu{
+        background-color: #fff !important;
+    }
+    op5:hover{
+    opacity:0.8;
+}
+
+
+.container {
+  max-width: none !important;
+  width: 970px;
+}
+
+.navbar-collapse {
+  display: block !important;
+  height: auto !important;
+  padding-bottom: 0;
+  overflow: visible !important;
+}
+
+.navbar-toggle {
+  display: none;
+}
+
+.navbar-brand {
+  margin-left: -15px;
+}
+
+textarea {
+resize: vertical;
+}
+
+textarea.form-control{
+height:190px;
 }
