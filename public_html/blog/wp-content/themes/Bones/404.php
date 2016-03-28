@@ -1,12 +1,7 @@
 <?php get_header(); ?>
+	<div class="container">
 
-			<div id="content">
-
-				<div id="inner-content" class="wrap cf">
-
-					<main id="main" class="m-all t-2of3 d-5of7 cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
-
-						<article id="post-not-found" class="hentry cf">
+						<article id="post-not-found" class="hentry cf padding">
 
 							<header class="article-header">
 
@@ -26,18 +21,9 @@
 
 							</section>
 
-							<footer class="article-footer">
-
-									<p><?php _e( 'This is the 404.php template.', 'bonestheme' ); ?></p>
-
-							</footer>
-
 						</article>
 
-					</main>
 
-				</div>
-
-			</div>
+	</div>
 
 <?php get_footer(); ?>
