@@ -467,7 +467,7 @@ function category_controll($test){
 
       $("#more_click").on("click", function(){
           var text = '閉じる';
-          if(!$(".sub-cat").hasClass('hide')){
+          if(!$(".sub-cat").hasClass('hides')){
            text = 'もっと見る';
           }
            $(".sub-cat").slideToggle(500);

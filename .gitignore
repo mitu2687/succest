@@ -10,6 +10,7 @@
 /tags
 *.mo
 /public_html/blog/wp-config.php
+public_html/blog/wp-content/plugins/ultimate-tinymce/
 
 # IDE and editor specific files #
 #################################
