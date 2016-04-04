@@ -470,7 +470,7 @@ function category_controll($test){
           if(!$(".sub-cat").hasClass('hides')){
            text = 'もっと見る';
           }
-           $(".sub-cat").slideToggle(500);
+           $(".sub-cat").slideToggle(500).toggleClass('hides');
           $(this).text(text);
       });
     });
