@@ -160,7 +160,7 @@ function bones_register_sidebars() {
 		'description' => __( 'The first (primary) sidebar.', 'bonestheme' ),
 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget' => '</div>',
-		'before_title' => '<h4 class="widgettitle">',
+		'before_title' => '<h4 class="widgettitle test">',
 		'after_title' => '</h4>',
 	));
 
@@ -445,6 +445,39 @@ EOM;
   }
 }
 add_filter('wp_footer', 'custom_footer');
+
+function category_controll($test){
+
+  echo <<< EOM
+  <script>
+    $(function(){
+      var cat = $(".cat-item");
+      var sub = [];
+      cat.each(function(i, val){
+        if(i >= 5){
+          sub[i] = cat[i];
+          cat[i].remove();
+        }
+      });
+      var add_tag = '<ul><li id="more_click" class="pointer">もっと見る</li></ul><ul class="sub-cat hides"></ul>';
+      $(".widget_categories").append(add_tag);
+        for(var i in sub){
+          $(".sub-cat").append(sub[i]).hide();
+        }
+
+      $("#more_click").on("click", function(){
+          var text = '閉じる';
+          if(!$(".sub-cat").hasClass('hide')){
+           text = 'もっと見る';
+          }
+           $(".sub-cat").slideToggle(500);
+          $(this).text(text);
+      });
+    });
+  </script>
+EOM;
+}
+add_filter('wp_head', 'category_controll');
 
 function debug($val){
   print "<pre>";

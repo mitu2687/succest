@@ -53,5 +53,11 @@
 
 		<?php wp_head(); ?>
 
-
-
+		<div class="container">
+			<div class="breadcrumbs">
+				<?php if(function_exists('bcn_display'))
+				{
+					bcn_display();
+				}?>
+			</div>
+		</div>

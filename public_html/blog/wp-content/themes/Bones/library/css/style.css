@@ -1838,3 +1838,18 @@ be set to display none.
   float: right;
   margin-top: 15px;
 }
+
+div.breadcrumbs {
+  margin-left: -30px;
+  font-size: 17px;
+}
+
+.widget li{
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  font-size: 15px;
+}
+
+.pointer{
+  cursor: pointer;
+}

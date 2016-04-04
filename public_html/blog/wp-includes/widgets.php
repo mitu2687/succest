@@ -650,7 +650,6 @@ function dynamic_sidebar( $index = 1 ) {
 			array( array_merge( $sidebar, array('widget_id' => $id, 'widget_name' => $wp_registered_widgets[$id]['name']) ) ),
 			(array) $wp_registered_widgets[$id]['params']
 		);
-
 		// Substitute HTML id and class attributes into before_widget
 		$classname_ = '';
 		foreach ( (array) $wp_registered_widgets[$id]['classname'] as $cn ) {
