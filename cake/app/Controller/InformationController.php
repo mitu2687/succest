@@ -168,40 +168,15 @@ class InformationController extends AppController{
 			$this->redirect($this->referer());
 		}
 
-				/*$email = new CakeEmail('suc');
-				$email->from($data['mail']);
-				$email->to( 'sender@mail' );
-				$email->emailFormat('text');
-				$email->template('contact');
-				$email->ViewVars(compact('data'));
-				$email->subject('お問い合わせがありました');
-				$email->send();*/
-
-/*        $email2 = new CakeEmail('satou');
-				$email2->from($data['mail']);
-				$email2->to( 'yuya@around.co.jp' );
-				$email2->emailFormat('text');
-				$email2->template('contact');
-				$email2->ViewVars(compact('data'));
-				$email2->subject('お問い合わせがありました');
-$email2->send();*/
-
+/*
 		$this->Email->smtpOptions = array(
 			'timeout' => 30,
 			'host' => 'ssl://smtp.gmail.com',
 			'port' => 465,
-			'username' => 'yuya@around.co.jp',
-			'password' => 'passyu8sato',
+			'username' => 'mitu2687sp@gmail.com',
+			'password' => 'mitu2687',
 		);
-
-		$this->set(compact('data'));
-		$this->Email->language ='Japanese';
-		$this->Email->sendAs = 'text' ;
-		$this->Email->from = 'yuya@around.co.jp';
-		$this->Email->to = 'yuya@around.co.jp';
-		$this->Email->subject = 'お問い合わせがありました';
-		$this->Email->template = 'contact';
-		$this->Email->send();
+		*/
 
 		$this->Email->smtpOptions = array(
 			'timeout' => 30,
@@ -218,6 +193,9 @@ $email2->send();*/
 		$this->Email->to = 'info@succest.jp';
 		$this->Email->subject = 'お問い合わせがありました';
 		$this->Email->template = 'contact';
+		$this->Email->send();
+
+		$this->Email->to = 'succest.ad@gmail.com';
 		$this->Email->send();
 
 		$this->Email->to = $data['mail'];

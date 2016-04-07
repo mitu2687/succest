@@ -459,11 +459,14 @@ function category_controll($test){
           cat[i].remove();
         }
       });
+
+      if(sub.length){
       var add_tag = '<ul><li id="more_click" class="pointer">もっと見る</li></ul><ul class="sub-cat hides"></ul>';
       $(".widget_categories").append(add_tag);
         for(var i in sub){
           $(".sub-cat").append(sub[i]).hide();
         }
+      }
 
       $("#more_click").on("click", function(){
           var text = '閉じる';
