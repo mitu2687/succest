@@ -1153,6 +1153,7 @@ POSTS & CONTENT STYLES
 .single-title,
 .page-title,
 .entry-title {
+  font-size: 1.8em;
   margin: 0; }
 
 /* want to style individual post classes? Booya! */
