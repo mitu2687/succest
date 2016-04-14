@@ -476,6 +476,8 @@ function category_controll($test){
            $(".sub-cat").slideToggle(500).toggleClass('hides');
           $(this).text(text);
       });
+
+      $("#wp-calendar").addClass("table table-bordered");
     });
   </script>
 EOM;
