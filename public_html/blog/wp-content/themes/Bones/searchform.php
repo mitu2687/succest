@@ -1,6 +1,5 @@
 <form role="search" method="get" id="searchform" class="searchform  form-inline" action="<?php echo home_url( '/' ); ?>">
-    <div class="form-group " style="margin-bottom: 15px;">
-        <label for="s" class="screen-reader-text"><?php _e('Search for:','bonestheme'); ?></label>
+    <div class="form-group ">
         <input class="form-control" type="text" id="s" name="s" value="" />
 
         <?php $b_block = is_mobile()? "btn-block sp-top" : "" ?>

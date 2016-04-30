@@ -1000,12 +1000,16 @@ and will be used across all viewports.
 GENERAL STYLES
 *********************/
 body {
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
   font-size: 100%;
   line-height: 1.5;
   color: #5c6b80;
   background-color: #eaedf2;
   -webkit-font-smoothing: antialiased; }
+
+  .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  }
 
 /********************
 WORDPRESS BODY CLASSES
@@ -1853,4 +1857,13 @@ div.breadcrumbs {
 
 .pointer{
   cursor: pointer;
+}
+
+.breadcrumb{
+  background-color: #DCF4FC !important;
+  padding: 15px 15px !important;
+}
+
+.pager li>a, .pager li>span{
+  border-radius: 4px !important; 
 }
